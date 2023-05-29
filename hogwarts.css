@@ -1,0 +1,72 @@
+/* Override browser default margins and paddings */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.hero-img {
+  position: relative;
+  height: 80vh;
+  width: auto;
+  background-image: url(banner.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-text {
+  position: absolute;
+  top: 25%;
+  color: #fff;
+  font-size:46px;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 12.5px 0px;
+}
+
+.navbar li{
+  list-style: none;
+}
+
+h3{
+  font-size: 24px;
+  text-align: center;
+  padding: 60px 0 60px 0;
+}
+
+.content-section{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  gap: 200px;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.section-image {
+  width: 450px;
+  height: 350px;
+}
+
+.section-text{
+  width: 450px;
+  padding: 25px 0 25px 0;
+}
+
+.footer{
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
